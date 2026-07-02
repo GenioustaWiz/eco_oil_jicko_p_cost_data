@@ -54,13 +54,13 @@ img{max-width:100%;}
 
 .logo-slot{
   width:64px; height:64px;
-  border:1.5px dashed rgba(242,239,231,0.35);
+  /* border:1.5px dashed rgba(242,239,231,0.35); */
   border-radius:var(--radius);
   display:flex; align-items:center; justify-content:center;
   cursor:pointer;
   flex-shrink:0;
   transition:border-color .15s ease, background .15s ease;
-  background:rgba(242,239,231,0.03);
+  /* background:rgba(242,239,231,0.03); */
 }
 .logo-slot:hover{border-color:var(--ember); background:rgba(226,98,27,0.08);}
 .logo-slot img{width:100%; height:100%; object-fit:contain; padding:4px;}
